@@ -1,0 +1,222 @@
+/* Default */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../assets/fundo_barra_top.jpg);
+
+}
+p{
+    margin:0;
+    padding:0;
+}
+/* Default */
+
+/* Fontes */
+@font-face {
+    font-family: Dos;
+    src: url(../assets/fonts/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../assets/fonts/RobotoCondensed-Light.ttf);
+}
+
+.fontA{
+    color: #0E8B95;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: Dos,sans-serif;
+    font-weight: 500;
+    text-align: right;
+    position: relative;
+}
+
+.fontB{
+    color: #0E8B95;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: none;
+    text-align: right;
+    font-family: roboto,sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+}
+/* Fontes */
+
+    /* Header */
+#above-header{
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0.911);
+    height: 95px ;
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+#logo{
+    margin-left: 17%;
+    height:85px ;
+    margin-top: 12px;
+}
+
+#schedule{
+    float: right;
+    margin-right: 20%;
+    width: 20%;
+    
+}
+
+header{
+    background-color: #0e8c9583;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    position: absolute;
+    width: 100%;
+}
+
+.optionContainer{
+    width: 1185px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+.optionContainer p{
+    text-align: center;
+    font-family: roboto;
+    font-size: 22px;
+    
+}
+
+.optionContainer, a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+a:hover{
+    text-decoration:underline ;
+}
+.optionButtom{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+#ContainerImageHeader{
+    position: absolute; 
+    width: 100%;
+    text-align: center;
+}
+
+#imgHeader{
+    width: 1184px;
+}
+
+.background-white{
+    background-color: rgba(255, 255, 255, 0.911);
+    height: 200px;
+    width: 100%;
+    margin-top: 750px;
+}
+
+/* Header */
+
+
+/* Sections styles */
+.sectionHeader{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    background-image: url(../assets/fundo_barra_escuro.jpg);
+    min-width: 1185px;
+}
+
+.sectionHeader p{
+    font-family: Dos, sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+/* Sections styles */
+
+/* Speciality */
+
+    .containerCards{
+        width: 1062px;
+        margin: auto;
+        overflow: hidden;
+        padding-left: 61.5px;
+        padding-right: 61.5px;
+        padding-top: 20px;
+    }
+
+    .card{
+        width: 298px;
+        text-align: left;
+        height: 190px;
+        display: inline-block;
+        margin-top: 60px;
+    }
+
+    .iconCard{ 
+        display: inline-block;
+        width: 30%;
+    }
+
+    .titleCard{
+        width: 70%;
+        font-family: roboto,sans-serif;
+        font-size: 30px;
+        color: #FFFFFF;
+        float: right;
+        padding-top: 15px;
+    }
+
+
+    .descriptionCard{
+        font-family: roboto,sans-serif;
+        font-size: 22px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }        
+
+/* Speciality */
+
+/* Exams */
+    .cardExams{
+        width: 298px;
+        text-align: left;
+        height: 190px;
+        display: inline-block;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+/* Exams */
+
+@media screen and (max-width: 1460px){
+
+    #logo{
+        margin-left: 12%;
+    }
+    #schedule{
+        background-color: transparent;
+        width: 30%;
+        margin-right: 18%;
+    }
+} 
+
+@media screen and (max-width: 1200px){
+
+    #logo{
+        margin-left: 2%;
+    }
+    #schedule{
+        width: 30%;
+        margin-right: 18%;
+    }
+    #above-header{
+        width: 1200px;
+    }
+}
+
